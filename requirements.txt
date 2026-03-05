@@ -1,6 +1,7 @@
 streamlit
-yfinance
-pandas
-plotly
 openai
+pandas
 numpy
+plotly
+tradingview_ta
+requests
