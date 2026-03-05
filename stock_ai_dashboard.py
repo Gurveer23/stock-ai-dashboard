@@ -8,7 +8,7 @@ st.set_page_config(page_title="StockAI Dashboard", layout="wide")
 st.title("📈 StockAI Dashboard")
 
 # Put your real API key here
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="OPENAI_API_KEY")
 
 ticker = st.text_input("Enter Stock Ticker (AAPL, TSLA, MSFT):", "AAPL").upper()
 
